@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="assets/css/ch5-theme/light-theme.css" />
+
+    <title>CH5-Demo-Public</title>
+  </head>
+
+  <body>
+    <ch5-triggerview
+      id="main-page"
+      class="triggerview"
+      gestureable="false"
+      endless="false"
+    >
+      <ch5-triggerview-child id="page-01">
+        <ch5-import-htmlsnippet
+          url="components\page-01\page-01.html"
+        ></ch5-import-htmlsnippet>
+      </ch5-triggerview-child>
+      <ch5-triggerview-child id="page-02">
+        <ch5-import-htmlsnippet
+          url="components\page-02\page-02.html"
+        ></ch5-import-htmlsnippet>
+      </ch5-triggerview-child>
+    </ch5-triggerview>
+
+    <script src="assets/js/ch5-crcomlib/cr-com-lib.js"></script>
+    <script src="assets/js/ch5-crcomlib/ch5-custom.js"></script>
+  </body>
+</html>
